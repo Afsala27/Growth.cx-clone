@@ -1,0 +1,440 @@
+body {
+    font-family: 'Mulish';
+}
+span{
+    font-size: 18px;
+    font-family: 'Mulish';
+    font-weight: bold;
+    padding-left: 20px;
+}
+button {
+    padding-left: 20px;
+}
+.navbar-brand{
+    padding-left: 48.68px;
+    padding-top: 22px;
+}
+.navbar-nav {
+    padding-left: 120px;
+    padding-top: 18px;
+}
+/* .btn {
+    margin-left: 200px;
+} */
+.container-fluid {
+    background-color: #FFFFFF;
+}
+.navbar navbar-expand-lg bg-body-tertiary{
+    background-color: #FFFFFF;
+}
+.nav-link > p {
+    font-size: 18px;
+    padding-left: 20px;
+    text-decoration:line-through;
+    margin-top:-25px ;
+    margin-bottom: -1px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+header {
+  /* background-image: url(Untitled.jpg); */
+  background-color: #FFFFFF;
+  width: 900px;
+  height: 200px;
+}
+.img {
+    width: 150%;
+}
+.container {
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-weight: bolder;
+  }
+  .centered > h1 {
+    font-size: 40px;
+    font-weight: 1000;
+  }
+  .centered > h4 {
+    font-weight: bold;
+  }
+  .container > h3{
+    margin-left: 55%;
+    font-weight: bolder;
+  }
+ .container-2{
+  position: relative;
+  text-align: center;
+  color: black;
+  top: 50px;
+ }
+ .container-2 > img {
+    width: 500px;
+    height: auto;
+ }
+ .centered-2 {
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-weight: bolder;
+  }
+  .container-3{
+    position: relative;
+    text-align: center;
+    color: black;
+    top: 50px;
+    left: 49%;
+   }
+   .container-3 > img {
+      width: 500px;
+      height: auto;
+   }
+   .centered-3 {
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: black;
+      font-weight: bolder;
+    }
+  .top-left {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    text-align: left;
+  }
+  .top-left > h6 {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .top-left > p {
+    font-size: 14px;
+    font-weight: normal;
+  }
+
+  .image-review-logo {
+    width: 97.25px;
+    height: 42.55px;
+  }
+
+  .top-right {
+    position: absolute;
+    top: 50px;
+    right: 220px;
+    text-align: left;
+  }
+  .top-right > h6 {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .top-right > p {
+    font-size: 14px;
+    font-weight: normal;
+  }
+  .image-review-logo-2{
+    width: 130px;
+    height: 130px;
+    top: 53px;
+    left: 500px;
+    border-radius: 27.97px;
+  }
+  .image-review-logo-3{
+    width: 130px;
+    height: 130px;
+    top: 500px;
+    left: 50px;
+    border-radius: 27.97px;
+    margin-top: 60px;
+    margin-left: -30px;
+}
+  
+  .service {
+    display: flex;
+  }
+  mark{
+    color: black;
+    background-color: #EDEDED;
+    margin: 10px;
+    font-size: 14px;
+    margin-left: -2px;
+  }
+
+  .image-review-logo-4{
+    width: 82px;
+    height: 18px;
+    margin-bottom: 5px;
+  }
+  .image-review-logo-5{
+    width: 128px;
+    height: 128px;
+    margin-top: 20px;
+    
+  }
+  .image-review-logo-6{
+    width: 118px;
+height: 38px;
+
+
+  }
+
+  .footer-container{
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .footer-container> img{
+    height: 800px;
+  }
+  .footer-text{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    color: white;
+  }
+  .footer-text >h1 {
+    font-size: 38px;
+    font-weight: bolder;
+  }
+  .btn btn-light {
+    width: 800px;
+  }
+  #button1{
+    margin-left: 200px;
+  }
+  #button2{
+    margin-top: 20px;
+  }
+  .container p-4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+  #container{
+    margin-left: -250px;
+  }
+  #cont-2 {
+    margin-left: 10px;
+  }
+  #cont-3{
+    margin-left: 10px;
+  }
+  #cont-4{
+    margin-left: -20px;
+  }
+  .row{
+    width: 700px;
+  }
+  .footer{
+    margin-top: -250px;
+    margin-left: 450px;
+    text-align: left;
+  }
+  .text-center{
+    margin-left: 50%;
+  }
+  a {
+    text-decoration: none;
+    font-weight: lighter;
+  }
+
+
+  @media screen and (max-width: 600px ) {
+    .container{
+      width: 500px;
+      margin-left: -100px;
+    }
+    .container-fluid{
+      width: 500px;
+      height: 50px;
+    }
+    .navbar-brand{
+      margin-left: -50px;
+      padding-top: 5px;
+    }
+    .navbar-toggler{
+      margin-right: -5px;
+    }
+    #button1 {
+      margin-left: 0px;
+    }
+    header {
+      width: 400px;
+    }
+    .container {
+      width: 500px;
+      background-image: url("image\ 19.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .container > img {
+      width: auto;
+      height: 500px;
+      visibility: hidden;
+    }
+    .centered {
+      width: 300px;
+    }
+    .centered > h1 {
+      font-size: 34px;
+      font-weight: 900;
+    }
+    .centered > h4 {
+      font-weight: bold;
+    }
+    .container > h3{
+      margin-left: 25%;
+      font-weight: bolder;
+      
+    }
+    .container-2{
+      position: relative;
+      text-align: center;
+      color: black;
+      top: 50px;
+      border-style: solid;
+      border-radius: 40px;
+      left: 5px;
+      height: 307px;
+      margin-bottom: 20px;
+     }
+     .image-review-logo-4 {
+      margin-left: 192px;
+     }
+     .top-right{
+      margin-left: -148px;
+     }
+     .top-right > h6 {
+      margin-left: 192px
+     }
+     .top-right > p{
+      margin-left: 193px;
+      margin-right: -191px;
+     }
+    
+    .image-review-logo-3{
+      margin-left: 84px;
+      width: 80px;
+      height: 70px;
+      margin-top: 38px;
+    }
+    .image-review-logo-6{
+      margin-left: 189px;
+    }
+     .container-2 > img{
+       width: 350px;
+       height: 350px;
+       visibility: hidden;
+     }
+     .image-review-logo-2 {
+      width: 80px;
+      height: 70px;
+      margin-left: -140px;
+      margin-top: -20px;
+     }
+     .top-left{
+      margin-left: -150px;
+     }
+     .image-review-logo{
+      margin-left: 39px;
+     }
+    .top-left > h6{
+      margin-left: 37px;
+    }
+    .top-left > p{
+      margin-left: -50px;
+      font-size: 15px;
+    }
+    mark{
+      margin-left: -55px;
+      margin-right: 58px;
+    }
+    .image-review-logo-5{
+      width: 80px;
+      height: 70px;
+      margin-left: -124px;
+      margin-top: -20px;
+    }
+     .container-3{
+      position: relative;
+      text-align: center;
+      color: black;
+      top: 50px;
+      border-style: solid;
+      border-radius: 40px;
+      left: 5px;
+      margin-bottom: 20px;
+     }
+     .container-3 > img{
+      visibility: hidden;
+     }
+    .footer{
+      width: 600px;
+      height: 674px;
+      margin-left: -400px;
+      background-color: black;
+    }
+    .footer-container{
+      width: 280px;
+      height: 800px;
+    }
+    .footer-text{
+      top: 35%;
+    }
+    .footer-text> h1 {
+      font-size: 18px;
+      width: 350px;
+      margin-left: -100px ;
+      margin-top: 30px;
+    }
+    .footer-container > img{
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 800px;
+    }
+    #button2{
+      margin-left:-100px;
+    }
+    .row{
+      display: flex;
+      flex-direction: column;
+      margin-left: 500px;
+      width: 296px;
+      height: 650px;
+      background-color: black;
+      margin-top: -124px;
+    }
+    #container{
+      margin-left: 9px;
+    }
+    #cont-4{
+      margin-left: 10px;
+    }
+    .text-center{
+      margin-left: 80px;
+      margin-top: -100px;
+      width: 280px;
+    }
+    #highlight{
+      position: absolute;
+      margin-left: 376px;
+    } 
+    #highlight2{
+      position: absolute;
+      margin-left: 302px;
+
+    }
+    #highlight1{
+      position: absolute;
+      margin-left: 194px;
+    }
+   
+ }
+
